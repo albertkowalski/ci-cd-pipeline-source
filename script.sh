@@ -1,8 +1,8 @@
 #!/bin/bash
 
 change=$(date)
-
-echo $change >> ./update.log
+filename="./update.log"
+echo "$change" >> $filename
 
 git add -A
 git commit -m "$change commit"
