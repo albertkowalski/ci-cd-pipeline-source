@@ -8,7 +8,7 @@ git add -A
 git commit -m "$change commit"
 git push
 
-exit 0 
+
 
 
 
